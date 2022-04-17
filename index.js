@@ -1,5 +1,8 @@
-module.exports = async function(file, params = {}) {
-  const tests = require(`../tests/${file}.test.js`)
+const path = require('path')
+
+module.exports = async function(name, params = {}) {
+  const file = path.join(process.cwd(), 'spec', 'tests', `${name}.test.js`)
+  const tests = require(file)
   for (const name in tests) {
     try {
       return await tests[name](params)
