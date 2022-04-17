@@ -1,6 +1,6 @@
 {
   "name": "spekky",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nano size test runner",
   "main": "index.js",
   "scripts": {
