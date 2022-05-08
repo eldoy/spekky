@@ -1,6 +1,6 @@
 # Spekky
 
-Nano size test runner.
+Nano size test runner. Zero dependencies.
 
 The tests use `assert` and stops when a test fails. There is no output if all tests pass.
 
