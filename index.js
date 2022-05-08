@@ -10,7 +10,7 @@ module.exports = async function(name, params = {}) {
       console.log(`\n* it['${test}'] in '${name}' failed:\n`)
       console.log(e.message)
       console.log()
-      return
+      process.exit(0)
     }
   }
 }
