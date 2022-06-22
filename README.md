@@ -11,7 +11,9 @@ npm i spekky
 
 ### Usage
 
-Create a directory called `spec` in your project's root folder. Add your tests in `spec/tests`, for example calle `spec/tests/http.test.js`. Then add this in `spec/index.js`:
+Create a directory called `spec` in your project's root folder.
+
+Add your tests in `spec/tests`, for example call it `spec/tests/http.test.js`. Then add this in `spec/index.js`:
 
 ```js
 const test = require('spekky')
